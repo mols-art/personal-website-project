@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    background-color: rgb(102, 156, 232);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    transition: width 10px;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    color: #007BFF;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(43, 42, 42);
+}
+
+.intro {
+    display: box;
+    padding: 20px;
+    background-color: darkslategray;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+}
+
+.photo {
+    margin-top: 34px;
+    width: 20%;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 106.5%;
+    height: 680%;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.main_section {
+    display: flex;
+}
+
+.academics {
+    background-color: darkslategray;
+}
+
+.about, .academics, .extracurriculars, .contact {
+    width: 90%;
+    padding: 20px;
+    color: white;
+}
+
+.grades {
+    padding-top: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+ul {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+li {
+    padding-bottom: 10px;
+}
+a {
+    color: white;
+}
+
+.grade_container {
+    display: flex;
+}
+
